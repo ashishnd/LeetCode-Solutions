@@ -11,4 +11,5 @@ https://leetcode.com/u/ashishnd
 
 List of problems solved with links to the solutions - 
 1. Set Matrix Zeros - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Medium/001_Set_Matrix_Zeros.cpp
-2. Pascal's Triangle - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/002_Pascals_triangle.cpp
+2. Pascal's Triangle - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/002_Pascals_triangle.py
+3. Next Permutation - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Medium/003_Next_Permutation.py
