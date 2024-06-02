@@ -1,5 +1,7 @@
 # Date solved: 30th May 2024
 
+# Specific Algorithm Used : Narayan Pandita Algorithm (Without this algo it's not possible to solve this problem and you have to learn the algo.)
+
 # Language used to solve: Python and C++
 
 # Problem Description:
