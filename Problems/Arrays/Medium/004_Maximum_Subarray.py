@@ -1,5 +1,7 @@
 # Date solved: 1st June 2024
 
+# Specific Algorithm Used : Kadane's Algorithm
+
 # Language used to solve: Python and C++
 
 # Problem Description:
