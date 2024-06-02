@@ -22,6 +22,9 @@
 
 # Solution 1 (Python) : 
 
+# Time Complexity : O(N^2)
+# Space Complexity : O(N^2)
+
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
         result = []
@@ -41,6 +44,9 @@ class Solution:
         return result
 
 # Solution 2 (C++) :
+
+# Time Complexity : O(N^2)
+# Space Complexity : O(N^2)
 
 class Solution {
 public:
