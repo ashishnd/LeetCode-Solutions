@@ -16,3 +16,4 @@ List of problems solved with links to the solutions -
 4. Maximum Subarray - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Medium/004_Maximum_Subarray.py (Date Solved - 1st June 2024)
 5. Set Mismatch - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/005_Set_Mismatch.py (Date Solved - 2nd June 2024)
 6. Search Insert Position - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/006_Search_Insert_Position.py (Date Solved - 3rd June 2024)
+7. Missing Number - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/007_Missing_Number.py (Date Solved - 4th June 2024)
