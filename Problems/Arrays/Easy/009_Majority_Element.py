@@ -41,3 +41,23 @@ class Solution:
             if(my_map[key] > len(nums)/2):
                 return key
         return 0
+
+# Solution 2 (Python) : 
+
+# Time Complexity : O(n)
+# Space Complexity : O(1)
+
+# Boyer-Moore Majority Vote Algorithm
+
+class Solution:
+    def majorityElement(self, nums: List[int]) -> int:
+        major, count = nums[0], 1
+        for i in range(1, len(nums)):
+            if(count == 0):
+                count += 1
+                major = nums[i]
+            elif(nums[i] == major):
+                count += 1
+            else:
+                count -= 1
+        return major
