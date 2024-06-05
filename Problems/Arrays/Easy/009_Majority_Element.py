@@ -1,5 +1,7 @@
 # Date solved: 4th June 2024
 
+# Specific algorithm used : Boyer-Moore Majority Vote Algorithm
+
 # Language used to solve: Python
 
 # Problem Description:
