@@ -20,3 +20,4 @@ List of problems solved with links to the solutions -
 8. Remove Duplicates from Sorted Array - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/008_Remove_Duplicates_From_Sorted_Array.py (Date Solved - 4th June 2024)
 9. Majority Element - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Arrays/Easy/009_Majority_Element.py (Date Solved - 4th June 2024)
 10. Merge Two Sorted Lists - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/010_Merge_Two_Sorted_Lists.py (Date Solved - 6th June 2024)
+11. Remove Duplicates from Sorted List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/011_Remove_Duplicates_From_Sorted_List.py (Date Solved - 6th June 2024)
