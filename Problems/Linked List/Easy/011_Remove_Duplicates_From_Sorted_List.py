@@ -41,7 +41,8 @@ class Solution:
             cur = cur.next
         return head
 
-# Why time complexity is O(N) even though there is nested while loop?
+# Why time complexity is O(N) even though there is nested while loop? (IMPO)
+
 # The time complexity of the given code is O(n), where n is the number of nodes in the linked list. Here's why:
 
 # The outer while cur loop runs through each node of the linked list exactly once.
