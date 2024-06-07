@@ -1,1 +1,47 @@
+Tortoise and Hare Algorithm (Floyd’s Cycle Detection)
 
+The Tortoise and Hare algorithm or Floyd's Cycle Detection is used to detect a cycle in a linked list.
+
+The Tortoise and Hare algorithm uses two pointers to detect a cycle in a linked list:
+
+Slow Pointer (Tortoise): Moves one step at a time.
+Fast Pointer (Hare): Moves two steps at a time.
+
+If there is no cycle, the fast pointer will eventually reach the end of the list (i.e., None). If there is a cycle, the fast pointer will eventually meet the slow pointer within the cycle.
+
+Used in Leetcode Problem : Linked List Cycle
+
+
+def hasCycle(self, head):
+    try:
+        slow = head
+        fast = head.next
+        while slow is not fast:
+            slow = slow.next
+            fast = fast.next.next
+        return True
+    except:
+        return False
+
+
+Step-by-Step Explanation:
+
+Initialize the slow pointer to the head of the list.
+Initialize the fast pointer to the second node (i.e., head.next).
+
+The loop runs as long as the slow pointer and the fast pointer are not pointing to the same node.
+Slow Pointer: Moves one step forward (slow = slow.next).
+Fast Pointer: Moves two steps forward (fast = fast.next.next).
+
+If the slow pointer and the fast pointer meet at some node, a cycle is detected, and the loop exits. The function then returns True indicating a cycle.
+
+If the fast pointer reaches the end of the list (i.e., fast or fast.next becomes None), an exception is raised because fast.next.next will not be valid.
+The except block catches this exception and returns False, indicating no cycle.
+
+Summary:
+
+Algorithm: Tortoise and Hare (Floyd’s Cycle Detection).
+Key Idea: Use two pointers moving at different speeds. If there is a cycle, they will eventually meet; if not, the fast pointer will reach the end of the list.
+Time Complexity: O(n), where n is the number of nodes in the list.
+Space Complexity: O(1), constant space.
+This algorithm is efficient and elegant for detecting cycles in a linked list.
