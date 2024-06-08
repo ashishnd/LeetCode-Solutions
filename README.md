@@ -22,3 +22,4 @@ List of problems solved with links to the solutions -
 10. Merge Two Sorted Lists - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/010_Merge_Two_Sorted_Lists.py (Date Solved - 6th June 2024)
 11. Remove Duplicates from Sorted List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/011_Remove_Duplicates_From_Sorted_List.py (Date Solved - 6th June 2024)
 12. Linked List Cycle - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/012_Linked_List_Cycle.py (Date Solved - 7th June 2024)
+13. Intersection of Two Linked Lists - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/013_Intersection_Of_Two_Linked_Lists.py (Date Solved - 8th June 2024)
