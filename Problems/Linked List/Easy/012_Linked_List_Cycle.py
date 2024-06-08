@@ -60,9 +60,27 @@ class Solution:
         except:
             return False
 
-# # NOTE
+# NOTE
 # Algorithm: Tortoise and Hare (Floyd’s Cycle Detection).
 # Key Idea: Use two pointers moving at different speeds. If there is a cycle, they will eventually meet; if not, the fast pointer will reach the end of the list.
 # Time Complexity: O(n), where n is the number of nodes in the list.
 # Space Complexity: O(1), constant space.
 # This algorithm is efficient and elegant for detecting cycles in a linked list.
+
+# Other things learnt in this problem
+# Coding approach used in this problem : 
+
+# Easier to Ask for Forgiveness than Permission (EAFP)
+# Easier to ask for forgiveness than permission. This common Python coding style assumes the existence of valid keys or attributes and catches exceptions if 
+# the assumption proves false. This clean and fast style is characterized by the presence of many try and except statements. The technique contrasts 
+# with the LBYL style common to many other languages such as C.
+
+# Other coding approach generally used : 
+# Look Before You Leap (LBYL)
+
+# This coding style explicitly tests for pre-conditions before making calls or lookups. This style contrasts with the EAFP approach and is characterized 
+# by the presence of many if statements.
+
+# In a multi-threaded environment, the LBYL approach can risk introducing a race condition between “the looking” and “the leaping”. For example, the code,
+# if key in mapping: return mapping[key] can fail if another thread removes key from mapping after the test, but before the lookup. This issue can be solved
+# with locks or by using the EAFP approach.
