@@ -25,3 +25,4 @@ List of problems solved with links to the solutions -
 13. Intersection of Two Linked Lists - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/013_Intersection_Of_Two_Linked_Lists.py (Date Solved - 8th June 2024)
 14. Remove Linked List Elements - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/014_Remove_Linked_List_Elements.py (Date Solved - 8th June 2024)
 15. Reverse Linked List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/015_Reverse_Linked_List.py (Date Solved - 9th June 2024)
+16. Palindrome Linked List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/016_Palindrome_Linked_List.py (Date Solved - 9th June 2024)
