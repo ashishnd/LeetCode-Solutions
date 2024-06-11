@@ -28,3 +28,4 @@ List of problems solved with links to the solutions -
 16. Palindrome Linked List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/016_Palindrome_Linked_List.py (Date Solved - 9th June 2024)
 17. Middle of the Linked List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Easy/017_Middle_of_the_Linked_List.py (Date Solved - 9th June 2024)
 18. Add Two Numbers - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Medium/018_Add_Two_Numbers.py (Date Solved - 10th June 2024)
+19. Remove Nth Node From End of List - https://github.com/ashishnd/LeetCode-Solutions/blob/main/Problems/Linked%20List/Medium/019_Remove_Nth_Node_From_End_of_List.py (Date Solved - 11th June 2024)
