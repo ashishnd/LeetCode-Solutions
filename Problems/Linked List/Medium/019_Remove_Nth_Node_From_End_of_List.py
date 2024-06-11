@@ -50,7 +50,7 @@ class Solution:
         slow.next = slow.next.next
         return head
 
-# Solution 2 (Python) : 
+# Solution 2 (Python) (Trivial/Naive Solution) : 
 
 # Time complexity : O(N)
 # Space complexity : O(1)
@@ -61,8 +61,8 @@ class Solution:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-    
-# Trivial/Naive Solution
+class Solution:
+    def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         dummyHead = ListNode()
         dummyHead.next = head
         cur = dummyHead
@@ -73,6 +73,7 @@ class Solution:
         cur = dummyHead
         total = count-1-n
         while total:
+
             cur = cur.next
             total -= 1
         cur.next = cur.next.next
