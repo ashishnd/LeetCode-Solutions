@@ -75,10 +75,10 @@ class Solution:
         return lists[lst+1]
 
 
-# Solution 2 (Python) (Efficient Solution) : 
+# Solution 2 (Python) (Efficient Solution) (Divide and Conquer) : 
 
-# Time complexity : O()
-# Space complexity : O()
+# Time complexity : O(Nlogk)
+# Space complexity : O(logk)
 
 # Definition for singly-linked list.
 # class ListNode:
@@ -116,3 +116,59 @@ class Solution:
             return l
         r.next = self.merge(l, r.next)
         return r
+
+# Complexity Explanation
+# The provided code merges k sorted linked lists using a divide-and-conquer approach, similar to the merge sort algorithm.
+
+# Base Case:
+
+# If the input list of lists is empty, return None.
+# If the input list contains only one list, return that list.
+
+# Recursive Case:
+
+# Split the list of lists into two halves.
+# Recursively merge the left and right halves.
+# Merge the two sorted halves using the merge function.
+
+# Merging Two Lists
+# The merge function merges two sorted linked lists and returns the merged list.
+
+# Time Complexity
+
+# Dividing the List:
+
+# The list of lists is divided into halves at each level of recursion.
+# The depth of the recursion tree is logk because the list is halved at each step.
+
+# Merging Lists:
+
+# At each level of the recursion tree, every node in the k lists is processed once.
+# Merging two lists takes O(N), where N is the total number of nodes in the lists being merged.
+# At each level of the recursion tree, the total number of nodes processed is O(N).
+
+# Total Time Complexity:
+
+# The total time complexity is O(Nlogk), where N is the total number of nodes across all k lists.
+
+# Space Complexity
+
+# Auxiliary Space for Recursion:
+
+# The recursion depth is logk.
+# Each recursive call uses a constant amount of space, so the auxiliary space complexity for the recursion is O(logk).
+
+# Auxiliary Space for Merging:
+
+# The merge function uses a constant amount of space for pointers.
+
+# Total Space Complexity:
+
+# The total auxiliary space complexity is O(logk) due to the recursion depth.
+
+# Summary
+# Time Complexity: O(Nlogk)
+# The list of lists is divided and merged in a manner similar to merge sort, resulting in a logarithmic depth recursion tree with linear merging at each level.
+
+# Space Complexity: O(logk)
+# The space complexity is dominated by the recursion depth, which is logarithmic with respect to the number of lists.
