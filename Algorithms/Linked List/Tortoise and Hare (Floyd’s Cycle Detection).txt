@@ -41,6 +41,7 @@ The except block catches this exception and returns False, indicating no cycle.
 Summary:
 
 Algorithm: Tortoise and Hare (Floyd’s Cycle Detection).
+
 Key Idea: Use two pointers moving at different speeds. If there is a cycle, they will eventually meet; if not, the fast pointer will reach the end of the list.
 Time Complexity: O(n), where n is the number of nodes in the list.
 Space Complexity: O(1), constant space.
